@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    max-width: 1440px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background: gray;
+}
+.header-menu{
+    justify-content: space-between;
+    font-size: 25px;
+    width: 300px;
+}
+.header-menu a{
+    justify-content: space-around;
+    color: #fff;
+}
+.header h1{
+    padding-left: 15px;
+}
+.header-menu a:hover{
+    font-size: 35px;
+    text-shadow: blue 5px 5px 5px;
+}
