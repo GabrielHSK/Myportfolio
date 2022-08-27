@@ -1,29 +1,48 @@
 *{
     margin: 0;
+    padding: 0;
+    background-image:url(./images/IMAGEMSTARTREKCERTA.webp);
+    color: white;
+}
+nav img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;;
+}
+nav{
+    color: white;
     text-decoration: none;
-    max-width: 1440px;
+}
+nav a{
+    color: white;
+}
 
+nav a:hover {
+    font-size: 20px;
+    text-shadow: yellow 4px 4px 4px;
 }
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 10vh;
-    background: gray;
+.card-body a{
+    border-radius: 50%;
 }
-.header-menu{
-    justify-content: space-between;
-    font-size: 25px;
-    width: 300px;
+.card-body h1{
+    padding: 10px;
+    font-size: 2rem;
 }
-.header-menu a{
-    justify-content: space-around;
-    color: #fff;
+.card-body button{
+    padding: 10px;
 }
-.header h1{
-    padding-left: 15px;
+.card{
+    margin:60px 40px;
 }
-.header-menu a:hover{
-    font-size: 35px;
-    text-shadow: blue 5px 5px 5px;
+.logica img{
+    width: 90px;
+    padding-bottom: 27px;
+    
+}
+.front img{
+    width: 100px;
+    padding-bottom: 27px;
+}
+.back img{
+    width: 120px;;
 }
