@@ -46,3 +46,12 @@ nav a:hover {
 .back img{
     width: 120px;;
 }
+.navbar-toggler{
+    position: relative;
+    bottom: -20px;
+}
+.navbar h6{
+    position: relative;
+    bottom: -25px;
+    left: -90px;
+}

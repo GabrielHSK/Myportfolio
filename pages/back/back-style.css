@@ -21,3 +21,13 @@ nav{
     color: white;
     text-decoration: none;
 }    
+.paragrafo{
+    position: relative;
+    left: 40px;
+    bottom: -50px;
+}
+.navbar h6{
+    position: relative;
+    bottom: -25px;
+    left: -90px;
+}    

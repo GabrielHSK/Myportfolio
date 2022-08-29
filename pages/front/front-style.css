@@ -3,21 +3,44 @@
     padding: 0;
     background-image: url(../../images/IMAGEMSTARTREKCERTA.webp);
 }
-img{
+nav img{
     width: 60px;
     border-radius: 50%;
     margin-right: 20px;
 }
-body{
+.navbar{
+    margin-bottom: 30px;
+    
+}
+body {
     height: 80vh;
-    color: white;
+    color: white
 }
-nav img{
-    width: 60px;
-    border-radius: 50%;
-    margin-right: 20px;;
+.foto1 img{
+    width: 800px;
+    border-radius: 0;
+    padding-left: 30px;
+    padding: 30px;
 }
-nav{
-    color: white;
-    text-decoration: none;
-}    
+.navbar h6{
+    position: relative;
+    bottom: -25px;
+    left: -90px;
+}
+.foto img{
+    width: 800px;
+    padding-bottom: 50px;
+}
+.titulo1{
+    font-size:  30px;
+    position: relative;
+    left: 40px;
+    bottom: px;
+
+}
+.container{
+    position: relative;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
